@@ -71,14 +71,20 @@ void insertAtPosition(int arr[],int size,int &n){
         cout<<"Enter the item to insert at given index: ";
         cin>>item;
 
-        for(int i=n-1; i>=pos; i--){
-            arr[i+1] = arr[i];
-        }
-        arr[pos] = item;
-        n++;
+        if(pos>=0 && pos<=n){
 
-        cout<<endl<<"After insertion of element at given position, array looks like...."<<endl;
-        displayArray(arr,n);
+            for(int i=n-1; i>=pos; i--){
+                arr[i+1] = arr[i];
+            }
+            arr[pos] = item;
+            n++;
+
+            cout<<endl<<"After insertion of element at given position, array looks like...."<<endl;
+            displayArray(arr,n);
+        }
+        else{
+            cout<<"Invalid Position Given..."<<endl;
+        }
     }
 }
 int main(){
