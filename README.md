@@ -11,6 +11,7 @@ This is an initiative for the students and learners in order to help them by pro
 We are getting started with one of the most easy, popular and commonly used Data Structure that is Array. We are going to see Insertion, Deletion, Searching and Sorting based on Array as Data Structure.
 
 ### Prerequisites☠
+# 
 
 The things you need:
 
@@ -19,6 +20,7 @@ The things you need:
 * Basic logic building.😂🤣🤣😂
 
 ### Recommended Integrated Development Environment(IDEs)
+# 
 
 * Microsoft's Visual Studio Code(VS Code)
 * Dev C++
