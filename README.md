@@ -1,4 +1,8 @@
-# 💥✨Data Structures and Algorithms in C++
+<h1 align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="100px" />
+</h1>
+
+# 💥✨Data Structures and Algorithms in C++ 
 
 This is an initiative for the students and learners in order to help them by providing quality, tried and tested, optimised code along with problems regarding a particular topic.
 
