@@ -16,7 +16,7 @@ void seiveOfEratosthenes(int n){
     }
 }
 int main(){
-    // Seive of Eratosthenes is a concept mainly to find the prime number in given range in time complexity of O(loglogn) inspite of O(n^2). In this approach, we just mark all elements as prime and then we unmark them as they are divided and elements left at last are all prime numbers. 
+    // Seive of Eratosthenes is a concept mainly used to find the prime number in given range in time complexity of O(loglogn) inspite of O(n^2). In this approach, we just mark all elements as prime and then we unmark them as they are divided and elements left at last are all prime numbers. 
     int n;
     cout<<"Enter the value of n upto which prime numbers are to be printed: ";
     cin>>n;
